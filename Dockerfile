@@ -1,5 +1,5 @@
 # Use Alpine as a lightweight base
-FROM alpine:latest
+FROM arm64v8/alpine:latest
 
 # Install dependencies
 RUN apk add --no-cache bash ca-certificates
